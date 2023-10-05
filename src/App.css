@@ -1,0 +1,60 @@
+*{font-family: 'Montserrat', sans-serif;}
+
+
+.notes-btn{
+    background-color: #203562;
+    color: white;
+}
+.tile-card{
+    width: 16rem;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+.empty-card{
+    color: #203562;
+    height: 250px;
+    border-radius: 16px;
+    background-color: #F5F5F5;
+
+}
+.card-title{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    color: #203562;
+}
+.card-btns{
+    display: flex;
+    justify-content: flex-end; 
+}
+.col-3{
+    background-color: #F5F5F5;
+    padding: 25px;
+
+}
+.col-9{
+    background-color: #E3E8F8;
+    padding: 30px 16px;
+}
+.no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+textarea{
+    height:100px;
+}
+.card-text{
+    font-size: 14px;
+}
+
+.scroll-card{
+    width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  
+}
+.card-body-text{
+    white-space: normal;
+    margin-bottom: 12px;
+}
